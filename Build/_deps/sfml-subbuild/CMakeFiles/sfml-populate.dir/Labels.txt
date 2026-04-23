@@ -1,0 +1,14 @@
+# Target labels
+ sfml-populate
+# Source files and their labels
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/sfml-subbuild/CMakeFiles/sfml-populate
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/sfml-subbuild/CMakeFiles/25deadf94f58bb884797322f22d22530/sfml-populate.rule
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/sfml-subbuild/CMakeFiles/46fcd6624566e36f0ad0d144bc45fe42/sfml-populate-complete.rule
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/sfml-subbuild/CMakeFiles/cfe776ff0feb464136f7e8efeb8fe740/sfml-populate-build.rule
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/sfml-subbuild/CMakeFiles/cfe776ff0feb464136f7e8efeb8fe740/sfml-populate-configure.rule
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/sfml-subbuild/CMakeFiles/cfe776ff0feb464136f7e8efeb8fe740/sfml-populate-download.rule
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/sfml-subbuild/CMakeFiles/cfe776ff0feb464136f7e8efeb8fe740/sfml-populate-install.rule
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/sfml-subbuild/CMakeFiles/cfe776ff0feb464136f7e8efeb8fe740/sfml-populate-mkdir.rule
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/sfml-subbuild/CMakeFiles/cfe776ff0feb464136f7e8efeb8fe740/sfml-populate-patch.rule
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/sfml-subbuild/CMakeFiles/cfe776ff0feb464136f7e8efeb8fe740/sfml-populate-test.rule
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/sfml-subbuild/CMakeFiles/cfe776ff0feb464136f7e8efeb8fe740/sfml-populate-update.rule

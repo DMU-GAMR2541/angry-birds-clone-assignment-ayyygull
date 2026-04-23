@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+C:/Users/hnnhw/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CheckCSourceCompiles.cmake
+C:/Users/hnnhw/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CheckIncludeFile.cmake
+C:/Users/hnnhw/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/CheckLibraryExists.cmake
+C:/Users/hnnhw/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/hnnhw/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/FindPackageMessage.cmake
+C:/Users/hnnhw/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/FindThreads.cmake
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/googletest-src/googlemock/CMakeLists.txt
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/googletest-src/googlemock/cmake/gmock.pc.in
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/googletest-src/googlemock/cmake/gmock_main.pc.in

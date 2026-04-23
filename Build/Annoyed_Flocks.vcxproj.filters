@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\include\Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\include\Slingshot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{56901908-2EAF-39A3-AC5B-E27B3052C397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AB88692C-E761-3D05-9B5F-AF73C49BF6BE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

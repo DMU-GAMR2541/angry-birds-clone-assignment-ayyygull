@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/Users/hnnhw/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/hnnhw/Downloads/cmake-4.3.2-windows-x86_64/cmake-4.3.2-windows-x86_64/share/cmake-4.3/Modules/FindPackageMessage.cmake
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/sfml-src/cmake/Modules/FindFLAC.cmake
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/sfml-src/cmake/Modules/FindOpenAL.cmake
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/sfml-src/cmake/Modules/FindVORBIS.cmake
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt

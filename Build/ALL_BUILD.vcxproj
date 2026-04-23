@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1EAFD7E0-F3EF-3FAF-BEBC-80C719E9CC2B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe -SC:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull -BC:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build --check-stamp-file C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FetchContent.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FetchContent\CMakeLists.cmake.in;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindGit.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\CMakeFiles\4.3.2\CMakeCCompiler.cmake;C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\CMakeFiles\4.3.2\CMakeCXXCompiler.cmake;C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\CMakeFiles\4.3.2\CMakeRCCompiler.cmake;C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\CMakeFiles\4.3.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe -SC:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull -BC:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build --check-stamp-file C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FetchContent.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FetchContent\CMakeLists.cmake.in;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindGit.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\CMakeFiles\4.3.2\CMakeCCompiler.cmake;C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\CMakeFiles\4.3.2\CMakeCXXCompiler.cmake;C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\CMakeFiles\4.3.2\CMakeRCCompiler.cmake;C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\CMakeFiles\4.3.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe -SC:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull -BC:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build --check-stamp-file C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FetchContent.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FetchContent\CMakeLists.cmake.in;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindGit.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\CMakeFiles\4.3.2\CMakeCCompiler.cmake;C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\CMakeFiles\4.3.2\CMakeCXXCompiler.cmake;C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\CMakeFiles\4.3.2\CMakeRCCompiler.cmake;C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\CMakeFiles\4.3.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\bin\cmake.exe -SC:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull -BC:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build --check-stamp-file C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FetchContent.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FetchContent\CMakeLists.cmake.in;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindGit.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Users\hnnhw\Downloads\cmake-4.3.2-windows-x86_64\cmake-4.3.2-windows-x86_64\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\CMakeFiles\4.3.2\CMakeCCompiler.cmake;C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\CMakeFiles\4.3.2\CMakeCXXCompiler.cmake;C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\CMakeFiles\4.3.2\CMakeRCCompiler.cmake;C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\CMakeFiles\4.3.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\ZERO_CHECK.vcxproj">
+      <Project>{E38B882C-B089-36EA-9DE9-4E91EEA56C85}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\Annoyed_Flocks.vcxproj">
+      <Project>{B2030FF5-317B-37C6-AC55-52706DDF8345}</Project>
+      <Name>Annoyed_Flocks</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\RunUnitTests.vcxproj">
+      <Project>{453755C3-A21C-38D9-8DBC-A194A42EE42C}</Project>
+      <Name>RunUnitTests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\_deps\box2d-build\src\box2d.vcxproj">
+      <Project>{3AB0572F-CD1C-368E-BB14-EB97C1666CC6}</Project>
+      <Name>box2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\_deps\box2d-build\extern\glad\glad.vcxproj">
+      <Project>{F924FFD7-5EAA-3510-B9B8-FA8BDF8C1208}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\_deps\box2d-build\extern\glfw\glfw.vcxproj">
+      <Project>{BD063F4E-F5F5-31A2-A012-A9972F734E99}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\_deps\googletest-build\googlemock\gmock.vcxproj">
+      <Project>{82AC6BDC-DE94-37C9-9B52-0F7CF63EA047}</Project>
+      <Name>gmock</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\_deps\googletest-build\googlemock\gmock_main.vcxproj">
+      <Project>{34DE9581-35AB-3855-B0FA-4C38BCEE7628}</Project>
+      <Name>gmock_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\_deps\googletest-build\googletest\gtest.vcxproj">
+      <Project>{0837C2B2-CF11-35B9-8EBA-2EDB3B6BF1F9}</Project>
+      <Name>gtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\_deps\googletest-build\googletest\gtest_main.vcxproj">
+      <Project>{B3B85A03-C047-3DE0-BD78-0CB3CB2B895B}</Project>
+      <Name>gtest_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\_deps\box2d-build\extern\imgui\imgui.vcxproj">
+      <Project>{36B50234-C8D7-31BB-9B9E-B7348229650D}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\_deps\box2d-build\extern\sajson\sajson.vcxproj">
+      <Project>{98F460D5-0408-36CC-B872-E93CA4259839}</Project>
+      <Name>sajson</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\_deps\sfml-build\src\SFML\Audio\sfml-audio.vcxproj">
+      <Project>{B1EC70AD-1E05-34EF-8437-557793668ECA}</Project>
+      <Name>sfml-audio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\_deps\sfml-build\src\SFML\Graphics\sfml-graphics.vcxproj">
+      <Project>{5F2692B5-D346-3B08-97C0-34D082F2E7FF}</Project>
+      <Name>sfml-graphics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\_deps\sfml-build\src\SFML\Main\sfml-main.vcxproj">
+      <Project>{0C6BFE4F-0EB2-3EEF-ACCB-AF68F319A375}</Project>
+      <Name>sfml-main</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\_deps\sfml-build\src\SFML\Network\sfml-network.vcxproj">
+      <Project>{C44EF921-17B1-339E-972C-E13E0F6D26EA}</Project>
+      <Name>sfml-network</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\_deps\sfml-build\src\SFML\System\sfml-system.vcxproj">
+      <Project>{78443676-0DEF-3F9A-9D74-6A9442041C54}</Project>
+      <Name>sfml-system</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\_deps\sfml-build\src\SFML\Window\sfml-window.vcxproj">
+      <Project>{042E4BD4-9BFD-3B76-9982-5EBEB186009D}</Project>
+      <Name>sfml-window</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\_deps\box2d-build\testbed\testbed.vcxproj">
+      <Project>{DDF3576D-4E2B-34EE-8BB5-046F94C02E62}</Project>
+      <Name>testbed</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hnnhw\OneDrive\Documents\GitHub\angry-birds-clone-assignment-ayyygull\Build\_deps\box2d-build\unit-test\unit_test.vcxproj">
+      <Project>{009B3E1A-23AD-350F-B4FF-856774B7A51F}</Project>
+      <Name>unit_test</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

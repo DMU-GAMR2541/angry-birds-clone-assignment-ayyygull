@@ -1,5 +1,6 @@
 #include <gtest/gtest.h>
 #include "Enemy.h"
+#include "Slingshot.h"
 
 /// <summary>
 ///Taken from the GoogleTest primer. 
@@ -40,6 +41,16 @@ protected:
 
 };
 
+// Fixture for testing Slingshot
+class SlingshotTest : public testing::Test {
+public:
+    std::unique_ptr<Slingshot> sling;
+protected:
+    void SetUp() override {
+        sling = std::make_unique<Slingshot>();
+    }
+};
+
 //A single test, not a fixture. No setup is called.
 TEST(Enemy, First_test) {
     Enemy e(100);
@@ -51,6 +62,28 @@ TEST(Enemy, First_test) {
 TEST_F(EnemyTest, LethalDamagePopsPig) {
     enemy->takeDamage(60);
     EXPECT_TRUE(enemy->checkIfPopped());
+}
+
+TEST(Enemy, NonFatal) {
+    Enemy a(100);
+    // int equality & non equality
+    EXPECT_EQ(a.getHealth(), 100);
+	EXPECT_NE(a.getHealth(), 50);
+}
+
+TEST(Enemy, FatalAssertion) {
+    Enemy b(100);
+    // int equality & non equality
+    ASSERT_EQ(b.getHealth(), 100);
+    ASSERT_NE(b.getHealth(), 50);
+}
+
+TEST_F(SlingshotTest, PullbackTension) {
+	sling->pullBack(30);
+	EXPECT_EQ(sling->getTension(), 30);
+
+    sling->pullBack(80);
+    EXPECT_EQ(sling->getTension(), 100);
 }
 
 int main(int argc, char** argv) {

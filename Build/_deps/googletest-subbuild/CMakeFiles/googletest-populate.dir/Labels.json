@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/googletest-subbuild/CMakeFiles/c8d633117434dde2e014f13660888853/googletest-populate.rule"
+		},
+		{
+			"file" : "C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/googletest-subbuild/CMakeFiles/bded399f7fd3b4590ba3ef0233bc9134/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/googletest-subbuild/CMakeFiles/6507ff54bce1c53bcd343ddd7aadaf02/googletest-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/googletest-subbuild/CMakeFiles/6507ff54bce1c53bcd343ddd7aadaf02/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/googletest-subbuild/CMakeFiles/6507ff54bce1c53bcd343ddd7aadaf02/googletest-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/googletest-subbuild/CMakeFiles/6507ff54bce1c53bcd343ddd7aadaf02/googletest-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/googletest-subbuild/CMakeFiles/6507ff54bce1c53bcd343ddd7aadaf02/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/googletest-subbuild/CMakeFiles/6507ff54bce1c53bcd343ddd7aadaf02/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/googletest-subbuild/CMakeFiles/6507ff54bce1c53bcd343ddd7aadaf02/googletest-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/googletest-subbuild/CMakeFiles/6507ff54bce1c53bcd343ddd7aadaf02/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}

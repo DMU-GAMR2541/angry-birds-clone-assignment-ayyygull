@@ -1,0 +1,14 @@
+# Target labels
+ googletest-populate
+# Source files and their labels
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/googletest-subbuild/CMakeFiles/googletest-populate
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/googletest-subbuild/CMakeFiles/c8d633117434dde2e014f13660888853/googletest-populate.rule
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/googletest-subbuild/CMakeFiles/bded399f7fd3b4590ba3ef0233bc9134/googletest-populate-complete.rule
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/googletest-subbuild/CMakeFiles/6507ff54bce1c53bcd343ddd7aadaf02/googletest-populate-build.rule
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/googletest-subbuild/CMakeFiles/6507ff54bce1c53bcd343ddd7aadaf02/googletest-populate-configure.rule
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/googletest-subbuild/CMakeFiles/6507ff54bce1c53bcd343ddd7aadaf02/googletest-populate-download.rule
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/googletest-subbuild/CMakeFiles/6507ff54bce1c53bcd343ddd7aadaf02/googletest-populate-install.rule
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/googletest-subbuild/CMakeFiles/6507ff54bce1c53bcd343ddd7aadaf02/googletest-populate-mkdir.rule
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/googletest-subbuild/CMakeFiles/6507ff54bce1c53bcd343ddd7aadaf02/googletest-populate-patch.rule
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/googletest-subbuild/CMakeFiles/6507ff54bce1c53bcd343ddd7aadaf02/googletest-populate-test.rule
+C:/Users/hnnhw/OneDrive/Documents/GitHub/angry-birds-clone-assignment-ayyygull/Build/_deps/googletest-subbuild/CMakeFiles/6507ff54bce1c53bcd343ddd7aadaf02/googletest-populate-update.rule
